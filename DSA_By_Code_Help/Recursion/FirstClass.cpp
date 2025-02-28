@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+
+
+
 int factorial(int n) {
 	//base case
 	if(n == 1) 
@@ -18,6 +22,11 @@ int factorial(int n) {
 	return finalAns;
 }
 
+
+
+
+
+
 void print(int n) {
 	//base case
 	if(n == 1) {
@@ -30,6 +39,10 @@ void print(int n) {
 	print(n-1);
 } 
 
+
+
+
+
 int pow(int n) {
 	//base case
 	if(n == 0) {
@@ -39,6 +52,10 @@ int pow(int n) {
 	int ans = 2 * pow(n-1);
 	return ans;
 }
+
+
+
+
 
 int fib(int n) {
 	//base case
@@ -50,6 +67,8 @@ int fib(int n) {
 	int ans = fib(n-1) + fib(n-2);
 	return ans;
 } 
+
+
 int sum(int n ) {
 	//base case
 	if(n == 1)
@@ -58,6 +77,10 @@ int sum(int n ) {
 	int ans = n + sum(n-1);
 	return ans;
 }
+
+
+
+
 int main() {
 	cout << sum(5) << endl;
 	//cout << fib(7) << endl;

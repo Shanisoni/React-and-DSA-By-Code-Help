@@ -31,6 +31,9 @@ using namespace std;
             cout<<k;
         }
         k++;
+
+
+        
          cout<<endl;
     }
    

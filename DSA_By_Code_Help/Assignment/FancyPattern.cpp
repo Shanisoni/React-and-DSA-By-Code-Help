@@ -30,6 +30,8 @@ using namespace std;
             // cout<<"*";
             cout<<k;
         }
+
+        
         k++;
 
 
